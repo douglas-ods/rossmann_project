@@ -31,6 +31,11 @@ Quais ferramentas serão usadas no processo?
 - Flask e Python API's.
 - Telegram
 
+### 3.3 Processo
+#### 3.3.1 Estratégia de solução
+Minha estratégia para resolver esse desafio, baseado na metodologia CRISP-DS:
+<img src="img/crisp.png" alt="h4" title="Vendas x Semanas com promo estendida" align="center" height="380" class="center"/>
+
 
 ## 4. Os 3 principais insights dos dados
 Durante a análise exploratória de dados, foram gerados insights ao time de negócio. 
@@ -48,7 +53,7 @@ Hipótese falsa. Foi observado que as vendas cairam em toda a rede em promoçõe
 
 
 
-* Insight de negócio: Descontinuar as promoções extendidas ativas ao atingirem no máximo 220 semanas, mantendo apenas promoções pontuais, ou realizando novas campanhas promocionais.
+* Insight de negócio: As promoções estendidas por um longo período estão perdendo sua eficácia. Após 220 semanas, os consumidores podem estar menos sensíveis a essas promoções, o que pode ter levado à queda nas vendas. A empresa deve diversificar suas estratégias de promoção. Em vez de manter promoções estendidas por tanto tempo, realizar diferentes abordagens, como promoções sazonais, descontos em produtos específicos ou promoções segmentadas.
 
 #### H9 - Lojas deveriam vender mais no segundo semestre do ano.
 Hipótese falsa. Foi observado que com exceção do mês de julho, as vendas são aproximadamente 1/3 menores nos 5 últimos meses do ano. 
@@ -72,7 +77,7 @@ Desta forma, a cada predição para 6 semanas, o modelo erra em torno de €775 
 
 Uma comparação entre vendas reais e vendas previstas pode ser vista abaixo:
 
-<img src="img/ml_model_results.png?raw=true" alt="ml_model_results" title="Vendas por dia nas próximas 6 semanas" align="center" height="380" class="center"/>
+<img src="img/realxpredito.jpg?raw=true" alt="ml_model_results" title="Vendas por dia nas próximas 6 semanas" align="center" height="380" class="center"/>
 
 ## 6. Resultados financeiros para o negócio
 As previsões de vendas da Rossmann, eram até antes deste projeto realizadas por meio de planilhas de histórico de venda, através de uma média móvel.
